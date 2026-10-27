@@ -1,0 +1,103 @@
+.destiny-seo {
+	max-width: 1400px;
+}
+
+.destiny-seo .nav-tab-wrapper {
+	margin-bottom: 20px;
+}
+
+.destiny-seo__card {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 8px;
+	padding: 22px;
+}
+
+.destiny-seo__card--full {
+	max-width: 860px;
+}
+
+.destiny-seo__toolbar {
+	margin-bottom: 16px;
+}
+
+.destiny-seo__filters {
+	display: flex;
+	gap: 8px;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-bottom: 12px;
+}
+
+.destiny-seo__filters input[type="search"] {
+	min-width: 260px;
+}
+
+.destiny-seo__form {
+	display: grid;
+	gap: 8px;
+}
+
+.destiny-seo__form label {
+	font-weight: 600;
+	margin-top: 8px;
+}
+
+.destiny-seo__form select,
+.destiny-seo__form input[type="text"],
+.destiny-seo__form input[type="password"] {
+	width: 100%;
+	max-width: none;
+}
+
+.destiny-seo__status {
+	display: inline-flex;
+	gap: 6px;
+	align-items: center;
+	border-radius: 999px;
+	padding: 6px 10px;
+	margin: 6px 0 14px;
+	background: #f6f7f7;
+}
+
+.destiny-seo__status.is-connected {
+	border-left: 4px solid #00a32a;
+}
+
+.destiny-seo__status.is-disconnected {
+	border-left: 4px solid #d63638;
+}
+
+.destiny-seo__bulk-actions {
+	display: flex;
+	gap: 8px;
+	margin-bottom: 12px;
+}
+
+.destiny-seo__table-wrap {
+	overflow-x: auto;
+}
+
+.destiny-seo__table th,
+.destiny-seo__table td {
+	vertical-align: middle;
+}
+
+.destiny-seo__score-pill {
+	display: inline-block;
+	padding: 4px 8px;
+	border-radius: 999px;
+	background: #f0f0f1;
+	font-weight: 700;
+	margin-right: 6px;
+}
+
+.destiny-seo__muted {
+	color: #8c8f94;
+}
+
+.destiny-seo__table small {
+	display: block;
+	margin-top: 4px;
+	color: #646970;
+}
